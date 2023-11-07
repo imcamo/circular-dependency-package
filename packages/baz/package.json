@@ -1,0 +1,10 @@
+{
+  "name": "@imcamo/baz",
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Camo <imcamo@msn.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

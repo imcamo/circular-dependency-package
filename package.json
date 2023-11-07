@@ -1,12 +1,16 @@
 {
   "name": "circular-dependency-package",
-  "version": "1.0.0",
-  "description": "",
+  "description": "The packages in this project are interdependent and are used to test NPM, YARN, and PNPM.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "changeset init",
+    "change": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2"
+  }
 }

@@ -1,0 +1,42 @@
+name: Release
+
+# 监听 master 分支的 push 事件
+on:
+  push:
+    branches:
+      - master
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+jobs:
+  release:
+    name: Release
+    # 运行环境
+    runs-on: ubuntu-latest
+    # 拉取代码
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      # 安装 Node
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      # 安装 pnpm
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.x
+      # 安装依赖
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+      # 自动创建发布 PR 或 发布 npm
+      - name: Create Release Pull Request or Publish to npm
+        uses: changesets/action@v1
+        with:
+            publish: pnpm run release
+            version: pnpm run version
+            commit: "chore: version packages"
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
