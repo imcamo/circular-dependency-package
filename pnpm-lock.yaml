@@ -15,6 +15,20 @@ importers:
         specifier: ^2.26.2
         version: 2.26.2
 
+  packages/bar:
+    dependencies:
+      '@imcamo/foo':
+        specifier: workspace:^
+        version: link:../foo
+
+  packages/baz:
+    dependencies:
+      '@imcamo/foo':
+        specifier: workspace:*
+        version: link:../foo
+
+  packages/foo: {}
+
 packages:
 
   /@babel/code-frame@7.22.13:
