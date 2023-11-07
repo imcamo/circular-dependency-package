@@ -18,7 +18,7 @@ importers:
   packages/bar:
     dependencies:
       '@imcamo/foo':
-        specifier: workspace:^3
+        specifier: workspace:^4.0.0
         version: link:../foo
 
   packages/baz:
