@@ -1,6 +1,6 @@
 {
   "name": "@imcamo/bar",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "type": "module",
   "author": "Camo <imcamo@msn.com>",
   "license": "MIT",
@@ -8,6 +8,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@imcamo/foo": "workspace:^4.0.0"
+    "@imcamo/foo": "workspace:^5.0.0"
   }
 }
