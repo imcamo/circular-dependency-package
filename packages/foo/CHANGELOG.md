@@ -1,5 +1,11 @@
 # @imcamo/foo
 
+## 4.1.0
+
+### Minor Changes
+
+- [`72fe103`](https://github.com/imcamo/circular-dependency-package/commit/72fe1039541169d611d25892e5b8694fdf41141d) - update foo to v5
+
 ## 4.0.0
 
 ### Major Changes

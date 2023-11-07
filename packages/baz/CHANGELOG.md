@@ -1,5 +1,12 @@
 # @imcamo/baz
 
+## 2.0.5
+
+### Patch Changes
+
+- Updated dependencies [[`72fe103`](https://github.com/imcamo/circular-dependency-package/commit/72fe1039541169d611d25892e5b8694fdf41141d)]:
+  - @imcamo/foo@4.1.0
+
 ## 2.0.4
 
 ### Patch Changes
