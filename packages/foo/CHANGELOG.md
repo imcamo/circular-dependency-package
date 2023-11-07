@@ -1,5 +1,15 @@
 # @imcamo/foo
 
+## 4.0.0
+
+### Major Changes
+
+- [`b7a0fb5`](https://github.com/imcamo/circular-dependency-package/commit/b7a0fb5e2c847329e42bb2e78256b2cd518a5606) - update to v4
+
+### Minor Changes
+
+- [`b82de7c`](https://github.com/imcamo/circular-dependency-package/commit/b82de7c46b06935355069429ca07d8971c087ea0) - update to v4
+
 ## 3.0.0
 
 ### Major Changes
