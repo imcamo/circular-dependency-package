@@ -1,5 +1,12 @@
 # @imcamo/bar
 
+## 2.0.3
+
+### Patch Changes
+
+- Updated dependencies [[`ec99af6`](https://github.com/imcamo/circular-dependency-package/commit/ec99af624c76863d4e5d2fbbb10ad304b1523dcf)]:
+  - @imcamo/foo@3.0.0
+
 ## 2.0.2
 
 ### Patch Changes
