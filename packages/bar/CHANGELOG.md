@@ -1,5 +1,11 @@
 # @imcamo/bar
 
+## 2.0.6
+
+### Patch Changes
+
+- [`e539e35`](https://github.com/imcamo/circular-dependency-package/commit/e539e355ac1808c518e8eb989c405286ae4f4866) - lock foo version
+
 ## 2.0.5
 
 ### Patch Changes
