@@ -8,6 +8,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@imcamo/foo": "workspace:^"
+    "@imcamo/foo": "workspace:^3"
   }
 }
