@@ -1,5 +1,11 @@
 # @imcamo/foo
 
+## 3.0.0
+
+### Major Changes
+
+- [`ec99af6`](https://github.com/imcamo/circular-dependency-package/commit/ec99af624c76863d4e5d2fbbb10ad304b1523dcf) - update major
+
 ## 2.0.0
 
 ### Major Changes
